@@ -16,7 +16,7 @@ To re-compile the application:
 javac Main.java
 ```
 
-To run the application:
+This application can be used with ongoing input, or by providing a file with pre-written commands. To run the application:
 
 ```
 java Main
