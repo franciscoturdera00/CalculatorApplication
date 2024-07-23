@@ -4,7 +4,6 @@ package Calculator;
  * A Simple Calculator interface.
  * This calculator supports 3 operations, namely adding, subtracting, and multiplying.
  * Each operation has the option to take in a value from a number or a variable holding a value.
- * The naming convention implies the usage of the typical mathematical definitions and it is encouraged to use them as so.
  * 
  * Type T: The resulting numeric type of the evaluation.
  */
