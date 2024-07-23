@@ -8,29 +8,40 @@ This calculator performs as a register. It stores values and returns them as pro
 
 ## Usage
 
-Run the following commands from the directory PREVIOUS to the application directory.
-
-Ex: ...\JavaProjects\SimpleCalculatorApp
-```
-cd C:\...\JavaProjects
-```
+Run the following commands from the application directory.
 
 To re-compile the application, run the following
 
 ```
-javac .\SimpleCalculatorApp\Main.java
+javac Main.java
 ```
 
 To run the application:
 
 ```
-java SimpleCalculatorApp/Main
+java Main
 OR
-java SimpleCalculatorApp/Main <path-to-file>
+java Main <path-to-file>
 ```
 
+SimpleCalculator has 3 verbs (case insensitive), namely:
+- ADD
+- SUBTRACT
+- MULTIPLY
 
+Register names must contain at least one letter.
 
+Example Usage:
+```
+register1 ADD 6
+register2 SUBTRACT 7
+register1 ADD register2
+register3 ADD 5
+register1 MULTIPLY register3
+print register1
+quit
+```
+Result: 23
 
 ## Design Choices
 
