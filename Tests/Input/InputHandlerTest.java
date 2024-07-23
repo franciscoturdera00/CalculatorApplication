@@ -1,4 +1,4 @@
-package SimpleCalculatorApp.Tests.Input;
+package Tests.Input;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,8 +9,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import SimpleCalculatorApp.Runners.IInputHandler;
-import SimpleCalculatorApp.Runners.InputHandler;
+import Runners.IInputHandler;
+import Runners.InputHandler;
 
 public class InputHandlerTest {
 
