@@ -9,7 +9,7 @@ public interface Operation<T extends Number> {
      * Applies binary operation between two elements
      * @param x1 An element of type T available to operate with
      * @param x2 An element of type T available to operate with
-     * @return The result after applying the binary operation between two elements
+     * @return The type T result after applying the binary operation between elements x1 and x2
      */
     T apply(T x1, T x2);
 
