@@ -10,7 +10,7 @@ This calculator performs as a register. It stores values and returns them as pro
 
 Run the following commands from the application directory.
 
-To re-compile the application:
+To compile the application:
 
 ```
 javac Main.java
